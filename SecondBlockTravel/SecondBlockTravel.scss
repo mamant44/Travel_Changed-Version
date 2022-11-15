@@ -1,0 +1,755 @@
+.top-block__left-wrapper {
+  height: 30px;
+  background: #ffb947;
+  color: #ffffff;
+  font-size: 11px;
+  padding-left: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  border-radius: 0 15px 15px 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: bold;
+}
+
+.tour-price {
+  &__price {
+    color: #ffb947;
+    font-weight: bold;
+  }
+  &__currency {
+    color: #ffffff;
+    line-height: 20px;
+  }
+}
+
+.menu-wrapper__menu {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.gallery-list-calendar__icon {
+  height: 100%;
+}
+.all-tours__bottom-block {
+  width: 100%;
+}
+
+.sort-by {
+  &__sort-wrapper {
+    height: 38px;
+  }
+  &__text {
+    width: 32%;
+  }
+}
+
+.sort-wrapper {
+  &__text {
+    width: 85%;
+  }
+  &__icon-choose {
+    width: 31px;
+    height: 100%;
+    background: no-repeat center url("data:image/svg+xml,%3Csvg width='8' height='5' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M.785 1l3 3 3-3' stroke='%23323232' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  }
+}
+
+.order-tour-form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.bottom-block__row-list {
+  width: 100%;
+}
+.show-more__show {
+  color: #7ebd3e;
+}
+
+ @media (min-width: 1200px) {
+    .main-content__second-block {
+      width: 74.61%;
+      height: 100%;
+    }
+    .second-block {
+      &__info-about-tours {
+        height: 597px;
+        margin-top: 20px;
+      }
+      &__all-tours {
+        width: 100%;
+        height: 1782px;
+      }
+      &__show-more {
+        height: 184px;
+      }
+    }
+
+    .info-about-tours {
+      &__gallery {
+        height: 520px;
+        background: no-repeat #e9e9e9 url("../img/sinevir.jpg");
+        border-radius: 10px;
+      }
+      &__menu-wrapper {
+        width: 100%;
+        height: 77px;
+        border-bottom: 1px solid #e9e9e9;
+        display: flex;
+        align-items: flex-end;
+      }
+    }
+
+    .gallery {
+      &__top-block {
+        padding: 20px 0;
+      }
+      &__bottom-block {
+        height: 208px;
+      }
+    }
+
+    .top-block {
+      &__left-wrapper {
+        width: 107px;
+      }
+      &__right-wrapper {
+        width: 24%;
+        height: 100%;
+      }
+    }
+
+    .bottom-block {
+      &__left-wrapper {
+        width: 68.3%;
+        height: 173px;
+        flex-direction: column;
+        padding-bottom: 35px;
+      }
+      &__right-wrapper {
+        width: 31.7%;
+        height: 100%;
+      }
+    }
+
+    .left-wrapper {
+      &__tour-name {
+        width: 85%;
+      }
+      &__tour-places {
+        width: 85%;
+        color: #ffffff;
+        opacity: 0.7;
+        font-size: 16px;
+        line-height: 26px;
+        margin-top: 15px;
+        position: relative;
+      }
+    }
+
+    .more-info {
+      width: 13%;
+      height: 26px;
+      position: absolute;
+      right: 5.5%;
+      bottom: 0;
+      background: no-repeat 100% 50% url("data:image/svg+xml,%3Csvg width='6' height='10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1l4 4-4 4' stroke='%23fff' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+      color: #ffffff;
+    }
+    .right-wrapper__tour-price-block {
+      width: 42%;
+      height: 81px;
+      border-left: 1px solid #ffffff;
+    }
+
+    .tour-price-block {
+      &__tour-price {
+        height: 45px;
+      }
+      &__price-per-person {
+        width: 100%;
+        height: 36px;
+        font-size: 12px;
+        color: #ffffff;
+        opacity: 0.7;
+        margin-left: 18px;
+      }
+    }
+
+    .tour-price {
+      &__price {
+        height: 100%;
+        display: flex;
+        align-items: flex-end;
+        margin-left: 18px;
+      }
+      &__currency {
+        font-size: 13px;
+      }
+    }
+
+    .menu-wrapper__menu {
+      width: 42%;
+      height: 37px;
+    }
+    .menu-general {
+      width: 24%;
+      height: 35px;
+    }
+    .menu__gallery {
+      border-bottom: 3px solid #2ab0cd;
+    }
+
+    .gallery__icon {
+      background: no-repeat 0 20% url("data:image/svg+xml,%3Csvg width='14' height='14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 1a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1H9a1 1 0 01-1-1V1zm0 8a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1H9a1 1 0 01-1-1V9zM0 9a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1H1a1 1 0 01-1-1V9zm0-8a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1H1a1 1 0 01-1-1V1z' fill='%232AB0CD'/%3E%3C/svg%3E");
+    }
+
+    .gallery-list-calendar__icon {
+      width: 26%;
+    }
+    .gallery-list-calendar__text {
+      width: 74%;
+    }
+
+    .all-tours {
+      &__top-block {
+        width: 100%;
+        height: 78px;
+      }
+      &__bottom-block {
+        height: 1704px;
+      }
+    }
+
+    .top-block__available-tours, .top-block__show-tours,
+    .top-block__sort-by {
+      width: 32%;
+    }
+
+    .show-tours {
+      &__text {
+        width: 62%;
+      }
+      &__viewing-tours {
+        width: 31.7%;
+        height: 38px;
+      }
+    }
+
+    .show-sort__text {
+      text-align: right;
+      color: #323232;
+      font-size: 13px;
+      font-weight: bold;
+    }
+    .general-show-sort {
+      border: 1px solid #e9e9e9;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+    }
+
+    .viewing-tours {
+      &__number {
+        width: 48%;
+      }
+      &__icon-choose {
+        width: 35%;
+        height: 100%;
+        background: no-repeat center url("data:image/svg+xml,%3Csvg width='8' height='5' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M.785 1l3 3 3-3' stroke='%23323232' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+      }
+    }
+
+    .bottom-block__row-list {
+      height: 552px;
+    }
+    .show-more__show {
+      padding: 6px 30px;
+      margin-bottom: 60px;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 1199px) {
+    .main-content__second-block {
+      height: 71.8%;
+    }
+
+    .second-block {
+      &__info-about-tours {
+        height: 476px;
+      }
+      &__all-tours {
+        width: 100%;
+        height: 1804px;
+      }
+      &__show-more {
+        height: 132px;
+      }
+    }
+
+    .info-about-tours {
+      &__gallery {
+        height: 398px;
+      }
+      &__menu-wrapper {
+        height: 78px;
+      }
+    }
+
+    .gallery {
+      &__top-block {
+        padding: 20px 0;
+      }
+      &__bottom-block {
+        height: 107px;
+      }
+    }
+
+    .top-block {
+      &__left-wrapper {
+        width: 107px;
+      }
+      &__right-wrapper {
+        width: 30.2%;
+        justify-content: space-between;
+      }
+    }
+
+    .bottom-block {
+      &__left-wrapper {
+        width: 577px;
+      }
+      &__right-wrapper {
+        width: 22%;
+        height: 100%;
+      }
+    }
+
+    .left-wrapper__tour-name {
+      width: 91.1%;
+    }
+    .right-wrapper__tour-price-block {
+      width: 80%;
+      height: 75px;
+      border-left: 1px solid #ffffff;
+    }
+
+    .tour-price {
+      &__price {
+        margin-left: 20px;
+      }
+      &__currency {
+        margin: 0 0 22px 5px;
+      }
+    }
+
+    .menu-wrapper__menu {
+      width: 53.5%;
+      height: 40px;
+    }
+
+    .menu {
+      &__gallery {
+        width: 92px;
+        border-bottom: 3px solid #2ab0cd;
+      }
+      &__list {
+        width: 90px;
+      }
+      &__calendar {
+        width: 111px;
+      }
+    }
+
+    .gallery__icon {
+        background: no-repeat 0 15% url("data:image/svg+xml,%3Csvg width='14' height='14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 1a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1H9a1 1 0 01-1-1V1zm0 8a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1H9a1 1 0 01-1-1V9zM0 9a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1H1a1 1 0 01-1-1V9zm0-8a1 1 0 011-1h4a1 1 0 011 1v4a1 1 0 01-1 1H1a1 1 0 01-1-1V1z' fill='%232AB0CD'/%3E%3C/svg%3E");
+    }
+
+    .gallery-list-calendar__icon {
+      width: 28%;
+    }
+    .gallery-list-calendar__text {
+      width: 72%;
+    }
+    .gallery-list-calendar__text,
+    .hit-novelty__text {
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+
+    .all-tours {
+      &__top-block {
+        height: 81px;
+      }
+      &__bottom-block {
+        height: 1723px;
+      }
+    }
+
+    .top-block__available-tours,
+    .top-block__sort-by {
+      width: 40%;
+    }
+
+    .sort-by {
+      &__text {
+        text-align: right;
+      }
+      &__sort-wrapper {
+        text-align: center;
+      }
+    }
+
+    .bottom-block__row-list {
+      height: 559px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .show-more__show {
+      padding: 6px 25px;
+      margin-bottom: 29px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .main-content__second-block {
+      height: 1819px;
+    }
+
+    .second-block {
+      &__info-about-tours {
+        height: 262px;
+      }
+      &__all-tours {
+        height: 1457px;
+        padding: 0 15px;
+      }
+      &__show-more {
+        height: 100px;
+        justify-content: center;
+        padding: 0 15px;
+      }
+    }
+
+    .info-about-tours {
+      &__gallery {
+        height: 196px;
+      }
+      &__menu-wrapper {
+        height: 66px;
+      }
+    }
+
+    .gallery {
+      &__top-block {
+        padding: 16px 0;
+      }
+      &__bottom-block {
+        height: 53px;
+      }
+    }
+
+    .top-block {
+      &__left-wrapper {
+        width: 86px;
+        height: 26px;
+        background: #ffb947;
+        color: #ffffff;
+        font-size: 9px;
+        padding-right: 5px;
+        text-transform: uppercase;
+        letter-spacing: 0.07em;
+        border-radius: 0 15px 15px 0;
+      }
+      &__right-wrapper {
+        width: 180px;
+        justify-content: center;
+      }
+    }
+
+    .right-wrapper {
+      &__indicators {
+        width: 85%;
+      }
+      &__tour-price-block {
+        width: 70%;
+        height: 37px;
+      }
+    }
+
+    .bottom-block {
+      &__left-wrapper {
+        width: 71%;
+      }
+      &__right-wrapper {
+        width: 29%;
+      }
+      &__left-wrapper,
+      &__right-wrapper {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+
+    .left-wrapper__tour-name {
+      width: 100%;
+      margin-left: 15px;
+    }
+    .tour-name__title {
+      font-size: 13px;
+      line-height: 130%;
+      font-weight: bold;
+      color: #ffffff;
+    }
+
+    .tour-price {
+      &__price {
+        height: 26px;
+        display: flex;
+        align-items: flex-end;
+        font-size: 24px;
+      }
+      &__currency {
+        height: 25px;
+        font-size: 12px;
+        margin-left: 3px;
+      }
+    }
+
+    .menu-wrapper__menu {
+     width: 260px;
+      height: 34px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .menu {
+      &__list {
+        width: 81px;
+        color: #2ab0cd;
+        border-bottom: 3px solid #2ab0cd;
+        margin-right: 50px;
+      }
+      &__calendar {
+        width: 98px;
+      }
+    }
+
+    .gallery__text,
+    .gallery__icon {
+      display: none;
+    }
+
+    .list {
+      &__icon {
+        width: 26%;
+        background: no-repeat 0 25% url("../img/blue-list.png");
+      }
+      &__text {
+        color: #2ab0cd;
+        width: 74%;
+        font-size: 12px;
+      }
+    }
+
+    .calendar {
+      &__icon {
+        width: 24%;
+        background: no-repeat 0 10% url("data:image/svg+xml,%3Csvg width='15' height='17' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='.75' y='2.75' width='13.5' height='13.5' rx='1.25' stroke='%23626262' stroke-width='1.5'/%3E%3Cpath d='M3 8h2v2H3V8zm3.5 0h2v2h-2V8zM10 8h2v2h-2V8zm-7 4h2v2H3v-2zm3.5 0h2v2h-2v-2zm3.5 0h2v2h-2v-2zM3.25 2.5a.75.75 0 001.5 0h-1.5zM4.75 1a.75.75 0 00-1.5 0h1.5zm5.5 1.5a.75.75 0 001.5 0h-1.5zm1.5-1.5a.75.75 0 00-1.5 0h1.5zM0 6.75h15v-1.5H0v1.5zM4.75 2.5V1h-1.5v1.5h1.5zm7 0V1h-1.5v1.5h1.5z' fill='%23626262'/%3E%3C/svg%3E");
+      }
+      &__text {
+        width: 76%;
+        font-size: 12px;
+      }
+    }
+
+    .all-tours {
+      &__top-block {
+        height: 89px;
+      }
+      &__bottom-block {
+        height: 1365px;
+        border-top: 1px solid #e9e9e9;
+      }
+    }
+
+    .top-block__sort-by {
+      width: 100%;
+    }
+    .sort-by__sort-wrapper {
+      width: 57%;
+      padding-left: 15px;
+      text-align: left;
+    }
+    .bottom-block__row-list {
+      height: 50%;
+    }
+    .show-more__show {
+      padding: 6px 80px;
+      margin-top: 10px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .right-wrapper {
+      &__indicators {
+        width: 44.1%;
+      }
+      &__switches-wrapper {
+        width: 50.5%;
+      }
+    }
+
+    .switches-wrapper__switches {
+      width: 64%;
+      height: 30px;
+      background: rgba(0,0,0, 0.4);
+      border-radius: 15px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .switches {
+      &__left-switch {
+        background: no-repeat center url("data:image/svg+xml,%3Csvg width='7' height='12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6 .887L1 5.91l5 5.022' stroke='%23fff' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+      }
+      &__switch {
+        width: 47.5%;
+        height: 100%;
+        color: #4b507e;
+      }
+      &__grey-line {
+        width: 5%;
+        height: 100%;
+        background: no-repeat center url("data:image/svg+xml,%3Csvg width='1' height='21' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath opacity='.2' fill='%23fff' d='M0 .865h1v20.088H0z'/%3E%3C/svg%3E");
+      }
+      &__right-switch {
+        background: no-repeat center url("data:image/svg+xml,%3Csvg width='7' height='12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 .887L6 5.91l-5 5.022' stroke='%23fff' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+      }
+    }
+
+    .left-wrapper__tour-name {
+      margin: 0 auto;
+      position: relative;
+    }
+
+    .tour-name {
+      &__title {
+        font-size: 29px;
+        line-height: 40px;
+        font-weight: bold;
+        color: #ffffff;
+      }
+      &__white-arrow {
+        width: 28%;
+        height: 27px;
+        background: no-repeat url("data:image/svg+xml,%3Csvg width='9' height='16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1l7 7-7 7' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+        position: absolute;
+        right: 0;
+        bottom: 0;
+      }
+    }
+
+    .tour-price__price {
+      font-size: 40px;
+    }
+    .list__icon {
+      background: no-repeat 0 20% url("data:image/svg+xml,%3Csvg width='16' height='12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4 1a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM0 1a1 1 0 112 0 1 1 0 01-2 0zm4 5a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM0 6a1 1 0 112 0 1 1 0 01-2 0zm4 5a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zm-4 0a1 1 0 112 0 1 1 0 01-2 0z' fill='%23626262'/%3E%3C/svg%3E");
+    }
+    .calendar__icon {
+      background: no-repeat 0 10% url("data:image/svg+xml,%3Csvg width='15' height='17' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='.75' y='2.75' width='13.5' height='13.5' rx='1.25' stroke='%23626262' stroke-width='1.5'/%3E%3Cpath d='M3 8h2v2H3V8zm3.5 0h2v2h-2V8zM10 8h2v2h-2V8zm-7 4h2v2H3v-2zm3.5 0h2v2h-2v-2zm3.5 0h2v2h-2v-2zM3.25 2.5a.75.75 0 001.5 0h-1.5zM4.75 1a.75.75 0 00-1.5 0h1.5zm5.5 1.5a.75.75 0 001.5 0h-1.5zm1.5-1.5a.75.75 0 00-1.5 0h1.5zM0 6.75h15v-1.5H0v1.5zM4.75 2.5V1h-1.5v1.5h1.5zm7 0V1h-1.5v1.5h1.5z' fill='%23626262'/%3E%3C/svg%3E");
+    }
+    .gallery__text {
+      color: #2ab0cd;
+    }
+    .gallery-list-calendar__text {
+      font-size: 13px;
+      display: flex;
+      align-items: flex-start;
+    }
+    .top-block__available-tours {
+      font-size: 17px;
+      line-height: 24px;
+      color: #323232;
+      font-weight: bold;
+    }
+    .sort-by__sort-wrapper {
+      width: 63%;
+    }
+  }
+
+  @media (max-width: 1199px) {
+    .info-about-tours {
+      &__gallery {
+        background: no-repeat #e9e9e9 url("../img/sinevir.jpg");
+        background-size: 100% 100%;
+        border-radius: 8px;
+      }
+      &__menu-wrapper {
+        width: 100%;
+        border-bottom: 1px solid #e9e9e9;
+        display: flex;
+        align-items: flex-end;
+      }
+    }
+
+    .top-block__right-wrapper {
+      height: 100%;
+      display: flex;
+    }
+    .tour-price-block__tour-price {
+      height: 100%;
+    }
+    .tour-price__currency {
+      display: flex;
+      align-items: flex-start;
+    }
+    .menu-general {
+      height: 95%;
+      display: flex;
+      justify-content: space-between;
+    }
+    .all-tours__top-block {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .sort-by {
+      &__text {
+        color: #323232;
+        font-size: 13px;
+        font-weight: bold;
+      }
+      &__sort-wrapper {
+        border: 1px solid #e9e9e9;
+      }
+    }
+  }
+
+  @media (max-width: 359px) {
+    .right-wrapper__tour-price-block {
+      width: 80%;
+    }
+    .tour-name__title {
+      font-size: 12px;
+    }
+
+    .calendar {
+      &__icon {
+        width: 21%;
+      }
+      &__text {
+        width: 79%;
+      }
+    }
+  }

@@ -1,0 +1,1666 @@
+p {
+  margin: 0;
+}
+ul {
+  padding: 0;
+}
+.page-content, .page-content__main-column, .main-column__second-block,
+.bus-rental__manager-contacts, .third-block__choice-buses,
+.option__description, .general-row__option, .fifth-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.first-block__bottom-block {
+  color: #ffffff;
+  position: relative;
+  border-radius: 5px;
+}
+
+.bottom-block {
+  &__right-part {
+    width: 190px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: absolute;
+    right: 0;
+  }
+  &__left-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+.right-part {
+  &__indicators {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__switches {
+    background: rgba(0,0,0, 0.4);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+  }
+}
+
+.switches {
+  &__switch {
+    width: 47.5%;
+    height: 100%;
+  }
+  &__grey-line {
+    width: 5%;
+    height: 100%;
+    background: no-repeat center url("data:image/svg+xml,%3Csvg width='1' height='21' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath opacity='.2' fill='%23fff' d='M0 .865h1v20.088H0z'/%3E%3C/svg%3E");
+  }
+  &__left-switch {
+    background: no-repeat center url("data:image/svg+xml,%3Csvg width='7' height='12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6 .887L1 5.91l5 5.022' stroke='%23fff' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  }
+  &__right-switch {
+    background: no-repeat center url("data:image/svg+xml,%3Csvg width='7' height='12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 .887L6 5.91l-5 5.022' stroke='%23fff' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  }
+}
+
+.service-rental__title {
+  color: #323232;
+}
+li {
+  color: #2ab0cd;
+  font-size: 19px;
+}
+.manager-contacts__mail-address,
+.manager-contacts__mobile-number,
+.manager-contacts__viber {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.mail-address__icon, .mobile-number__icon, .viber__icon {
+  width: 30px;
+  height: 100%;
+  color: #ffffff;
+}
+.mail-address__mail, .mobile-number__number, .viber__number {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.mail-address__icon {
+  background: no-repeat left url("data:image/svg+xml,%3Csvg width='20' height='15' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M16.587 1H2.986C1.772 1 .785 1.937.785 3.089v8.822c0 1.152.987 2.089 2.2 2.089h13.599c1.214 0 2.2-.937 2.2-2.089V3.092C18.789 1.94 17.802 1 16.588 1zm1.196 10.911c0 .626-.537 1.135-1.196 1.135H2.986c-.66 0-1.196-.51-1.196-1.135V3.092c0-.625.537-1.134 1.196-1.134h13.598c.659 0 1.195.509 1.195 1.134v8.82h.004z' fill='%232AB0CD'/%3E%3Cpath d='M12.137 7.39l4.402-3.746a.462.462 0 00.037-.675.525.525 0 00-.711-.036L9.794 8.104 8.61 7.101c-.004-.004-.008-.007-.008-.011a.735.735 0 00-.082-.067L3.7 2.93a.521.521 0 00-.71.039.46.46 0 00.04.675l4.455 3.778-4.436 3.941a.462.462 0 00-.022.675.528.528 0 00.711.025l4.503-3.997L9.463 9.1a.518.518 0 00.67-.003l1.255-1.068 4.477 4.037c.097.088.223.13.346.13.134 0 .265-.05.365-.148a.462.462 0 00-.018-.675L12.137 7.39z' fill='%232AB0CD'/%3E%3Cpath d='M16.587 1H2.986C1.772 1 .785 1.937.785 3.089v8.822c0 1.152.987 2.089 2.2 2.089h13.599c1.214 0 2.2-.937 2.2-2.089V3.092C18.789 1.94 17.802 1 16.588 1zm1.196 10.911c0 .626-.537 1.135-1.196 1.135H2.986c-.66 0-1.196-.51-1.196-1.135V3.092c0-.625.537-1.134 1.196-1.134h13.598c.659 0 1.195.509 1.195 1.134v8.82h.004z' stroke='%232AB0CD' stroke-width='.5'/%3E%3Cpath d='M12.137 7.39l4.402-3.746a.462.462 0 00.037-.675.525.525 0 00-.711-.036L9.794 8.104 8.61 7.101c-.004-.004-.008-.007-.008-.011a.735.735 0 00-.082-.067L3.7 2.93a.521.521 0 00-.71.039.46.46 0 00.04.675l4.455 3.778-4.436 3.941a.462.462 0 00-.022.675.528.528 0 00.711.025l4.503-3.997L9.463 9.1a.518.518 0 00.67-.003l1.255-1.068 4.477 4.037c.097.088.223.13.346.13.134 0 .265-.05.365-.148a.462.462 0 00-.018-.675L12.137 7.39z' stroke='%232AB0CD' stroke-width='.5'/%3E%3C/svg%3E");
+}
+.mobile-number__icon {
+  background: no-repeat 20% 50% url("data:image/svg+xml,%3Csvg width='13' height='20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11.785 17.599V2.397A1.41 1.41 0 0010.367 1H2.203A1.41 1.41 0 00.785 2.397v15.206A1.41 1.41 0 002.203 19h8.164c.78-.004 1.418-.629 1.418-1.401zM1.699 4.239h9.168v10.23H1.699V4.24zm.504-2.338h8.164a.5.5 0 01.503.496v.942H1.7v-.942a.5.5 0 01.504-.496zm-.504 15.698v-2.232h9.168v2.232a.5.5 0 01-.504.496h-8.16a.5.5 0 01-.504-.496z' fill='%232AB0CD'/%3E%3Cpath d='M7.21 16.32H5.356a.455.455 0 00-.46.452c0 .25.206.452.46.452H7.21a.455.455 0 00.459-.452.455.455 0 00-.459-.453z' fill='%232AB0CD'/%3E%3Cpath d='M11.785 17.599V2.397A1.41 1.41 0 0010.367 1H2.203A1.41 1.41 0 00.785 2.397v15.206A1.41 1.41 0 002.203 19h8.164c.78-.004 1.418-.629 1.418-1.401zM1.699 4.239h9.168v10.23H1.699V4.24zm.504-2.338h8.164a.5.5 0 01.503.496v.942H1.7v-.942a.5.5 0 01.504-.496zm-.504 15.698v-2.232h9.168v2.232a.5.5 0 01-.504.496h-8.16a.5.5 0 01-.504-.496z' stroke='%232AB0CD' stroke-width='.5'/%3E%3Cpath d='M7.21 16.32H5.356a.455.455 0 00-.46.452c0 .25.206.452.46.452H7.21a.455.455 0 00.459-.452.455.455 0 00-.459-.453z' stroke='%232AB0CD' stroke-width='.5'/%3E%3C/svg%3E");
+}
+.viber__icon {
+  background: no-repeat left url("data:image/svg+xml,%3Csvg width='21' height='22' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20.58 12.736c.651-5.52-.312-9.005-2.05-10.58v-.002C15.725-.537 6.25-.936 2.894 2.275 1.387 3.845.856 6.151.798 9.005.739 11.86.67 17.207 5.617 18.658h.004l-.004 2.215s-.034.898.535 1.078c.651.213.946-.204 2.97-2.64 3.386.296 5.986-.382 6.281-.48.684-.232 4.552-.747 5.177-6.095zM9.456 17.752s-2.143 2.692-2.81 3.39c-.218.228-.457.207-.453-.244 0-.296.016-3.678.016-3.678-4.193-1.21-3.946-5.764-3.9-8.146.045-2.383.478-4.335 1.754-5.65C7.008.645 15.314 1.266 17.43 3.27c2.588 2.31 1.667 8.839 1.672 9.061-.532 4.464-3.666 4.747-4.243 4.94-.246.083-2.532.675-5.403.482z' fill='%237D3DAF'/%3E%3Cpath d='M10.641 3.948c-.35 0-.35.55 0 .554 2.716.02 4.952 1.928 4.977 5.425 0 .37.536.365.531-.004-.029-3.77-2.471-5.954-5.508-5.975z' fill='%237D3DAF'/%3E%3Cpath d='M14.213 9.347c-.008.365.527.382.532.013.044-2.078-1.227-3.79-3.617-3.97-.35-.026-.387.528-.038.554 2.073.159 3.165 1.584 3.123 3.403zm-.573 2.364c-.449-.262-.906-.099-1.095.159l-.396.515c-.2.262-.576.228-.576.228-2.74-.73-3.473-3.62-3.473-3.62s-.033-.39.218-.6l.494-.412c.247-.198.404-.674.152-1.142-.673-1.225-1.125-1.647-1.355-1.971-.241-.305-.605-.374-.983-.168h-.008c-.787.464-1.648 1.331-1.372 2.224.47.942 1.333 3.943 4.086 6.21 1.294 1.073 3.341 2.172 4.21 2.426l.008.012c.857.288 1.69-.613 2.134-1.43v-.005c.197-.395.132-.769-.156-1.014-.511-.501-1.282-1.055-1.888-1.412z' fill='%237D3DAF'/%3E%3Cpath d='M11.502 7.434c.874.052 1.297.511 1.343 1.456.016.369.548.343.532-.026-.059-1.233-.697-1.92-1.846-1.984-.35-.02-.383.533-.029.554z' fill='%237D3DAF'/%3E%3C/svg%3E");
+}
+
+.choice-buses__title,
+.transport-rental__title {
+  display: flex;
+  align-items: flex-start;
+  color: #323232;
+}
+.option__photo img {
+  border-radius: 5px 5px 0 0;
+}
+.option__description {
+  height: 83px;
+  border: 2px solid #e9e9e9;
+  border-top: none;
+  border-radius: 0 0 5px 5px;
+}
+
+.transport-rental {
+  &__bottom-block {
+    display: flex;
+    justify-content: flex-start;
+  }
+  &__registration-rent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
+
+.fields-general {
+  height: 46px;
+  padding-left: 15px;
+  letter-spacing: 0.02em;
+}
+.date-of-departure__calendar {
+  width: 30px;
+  height: 100%;
+  background: no-repeat left url("data:image/svg+xml,%3Csvg width='15' height='17' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='.75' y='2.75' width='13.5' height='13.5' rx='1.25' stroke='%23626262' stroke-width='1.5'/%3E%3Cpath d='M3 8h2v2H3V8zm3.5 0h2v2h-2V8zM10 8h2v2h-2V8zm-7 4h2v2H3v-2zm3.5 0h2v2h-2v-2zm3.5 0h2v2h-2v-2zM3.25 2.5a.75.75 0 001.5 0h-1.5zM4.75 1a.75.75 0 00-1.5 0h1.5zm5.5 1.5a.75.75 0 001.5 0h-1.5zm1.5-1.5a.75.75 0 00-1.5 0h1.5zM0 6.75h15v-1.5H0v1.5zM4.75 2.5V1h-1.5v1.5h1.5zm7 0V1h-1.5v1.5h1.5z' fill='%23626262'/%3E%3C/svg%3E");
+}
+.registration-rent__sixth-row {
+  padding: 15px 0 0 15px;
+  display: flex;
+  align-items: flex-start;
+  font-family: "Roboto", Arial, sans-serif;
+  resize: none;
+}
+.fields-general,
+.registration-rent__sixth-row {
+  border: 1px solid #e9e9e9;
+  border-radius: 5px;
+  color: #626262;
+  font-size: 14px;
+}
+
+.bottom-block {
+  &__description {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+  }
+  &__button-write {
+    width: 134px;
+    padding: 13px 0;
+    font-size: 12px;
+  }
+}
+
+.transport-options__options,
+.description__info-about-advisor {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.fifth-block__button-order,
+.bottom-block__button-write {
+  background: #7ebd3e;
+  border-radius: 5px;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  border: none;
+}
+
+.share {
+  &__icon {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #e9e9e9;
+    border-radius: 30px;
+    background: no-repeat center url("data:image/svg+xml,%3Csvg width='14' height='14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 8.333c-.802 0-1.52.357-2.009.917L5.607 7.558a2.68 2.68 0 000-1.116L8.991 4.75a2.667 2.667 0 10-.598-1.192L5.009 5.25A2.658 2.658 0 003 4.333a2.667 2.667 0 000 5.334 2.66 2.66 0 002.01-.917l3.383 1.692A2.665 2.665 0 0011 13.667a2.667 2.667 0 000-5.334zm0-6.666a1.333 1.333 0 110 2.666 1.333 1.333 0 010-2.666zM3 8.333a1.333 1.333 0 110-2.666 1.333 1.333 0 010 2.666zm8 4a1.333 1.333 0 110-2.666 1.333 1.333 0 010 2.666z' fill='%232AB0CD'/%3E%3C/svg%3E");
+  }
+  &__text {
+    width: 98px;
+    font-size: 13px;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 5px;
+    color: #323232;
+    font-weight: bold;
+  }
+}
+
+.white {
+  color: #ffffff;
+}
+
+.contacts-block {
+  &__title-block {
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    background: #ffb947;
+    border-radius: 5px 5px 0 0;
+  }
+  &__booking-manager {
+    height: 232px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #e9e9e9;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+  }
+}
+
+.title-block {
+  &__icon {
+    width: 41px;
+    height: 100%;
+    margin-left: 20px;
+    background: no-repeat left url("data:image/svg+xml,%3Csvg width='28' height='28' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M21.56 17.106c-.534-.554-1.177-.85-1.858-.85-.676 0-1.325.29-1.88.845l-1.736 1.728c-.143-.077-.286-.148-.423-.22a6.964 6.964 0 01-.545-.29c-1.626-1.032-3.104-2.376-4.522-4.116-.687-.867-1.149-1.597-1.484-2.337.45-.412.868-.84 1.275-1.252.154-.153.308-.312.461-.466 1.155-1.152 1.155-2.645 0-3.797l-1.5-1.498c-.17-.17-.346-.346-.51-.522a26.25 26.25 0 00-1.034-1.02c-.533-.527-1.17-.807-1.841-.807-.67 0-1.319.28-1.868.807l-.011.01-1.869 1.883a4.012 4.012 0 00-1.192 2.551c-.132 1.603.34 3.095.703 4.072.89 2.398 2.22 4.62 4.204 7.002 2.407 2.87 5.303 5.136 8.611 6.733 1.264.598 2.951 1.306 4.837 1.427.115.005.236.011.346.011 1.27 0 2.335-.456 3.17-1.36.006-.012.017-.017.023-.028.285-.346.615-.659.961-.994.237-.225.478-.46.715-.707.544-.566.83-1.224.83-1.9 0-.68-.292-1.333-.847-1.881l-3.017-3.024zm1.966 5.778c-.005.006-.005 0 0 0-.214.23-.434.44-.67.67-.357.34-.72.697-1.06 1.097-.556.593-1.21.873-2.067.873-.082 0-.17 0-.253-.006-1.632-.104-3.148-.74-4.286-1.284-3.11-1.503-5.842-3.638-8.111-6.343-1.874-2.256-3.127-4.34-3.957-6.58-.511-1.366-.698-2.43-.616-3.435a2.517 2.517 0 01.759-1.63l1.874-1.87c.269-.253.555-.39.835-.39.346 0 .627.208.802.384l.017.016c.335.313.654.637.989.982.17.176.346.352.522.533l1.5 1.498c.583.581.583 1.12 0 1.7-.159.16-.313.32-.472.473-.462.472-.902.91-1.38 1.339-.01.01-.022.016-.027.027-.473.472-.385.933-.286 1.246l.017.05c.39.943.94 1.832 1.775 2.891l.005.006c1.517 1.865 3.116 3.32 4.88 4.433.225.143.456.258.676.368.198.099.385.192.544.291.022.01.044.027.066.038.187.094.363.138.544.138.456 0 .742-.286.835-.38l1.88-1.876c.187-.186.483-.411.83-.411.34 0 .62.214.791.4l.011.011 3.028 3.024c.566.56.566 1.136.005 1.717zM15.053 7.185a6.972 6.972 0 013.791 1.964 6.992 6.992 0 011.968 3.787c.06.362.373.614.73.614.045 0 .083-.005.127-.01a.742.742 0 00.61-.857 8.46 8.46 0 00-2.38-4.582 8.48 8.48 0 00-4.588-2.376.746.746 0 00-.857.604c-.072.4.192.79.598.856zm11.936 5.285a13.917 13.917 0 00-3.919-7.546 13.951 13.951 0 00-7.556-3.913.739.739 0 10-.242 1.46 12.493 12.493 0 016.754 3.495 12.425 12.425 0 013.5 6.745.738.738 0 00.732.614c.044 0 .082-.005.126-.01a.727.727 0 00.605-.846z' fill='%23fff'/%3E%3Cpath d='M23.526 22.884c-.005 0-.005.006 0 0zm0 0c-.214.23-.434.44-.67.67-.357.34-.72.697-1.06 1.097-.556.593-1.21.873-2.067.873-.082 0-.17 0-.253-.006-1.632-.104-3.148-.74-4.286-1.284-3.11-1.503-5.842-3.638-8.111-6.343-1.874-2.256-3.127-4.34-3.957-6.58-.511-1.366-.698-2.43-.616-3.435a2.517 2.517 0 01.759-1.63l1.874-1.87c.269-.253.555-.39.835-.39.346 0 .627.208.802.384l.017.016c.335.313.654.637.989.982.17.176.346.352.522.533l1.5 1.498c.583.581.583 1.12 0 1.7-.159.16-.313.32-.472.473-.462.472-.902.91-1.38 1.339-.01.01-.022.016-.027.027-.473.472-.385.933-.286 1.246l.017.05c.39.943.94 1.832 1.775 2.891l.005.006c1.517 1.865 3.116 3.32 4.88 4.433.225.143.456.258.676.368.198.099.385.192.544.291.022.01.044.027.066.038.187.094.363.138.544.138.456 0 .742-.286.835-.38l1.88-1.876c.187-.186.483-.411.83-.411.34 0 .62.214.791.4l.011.011 3.028 3.024c.566.56.566 1.136.005 1.717zm-1.967-5.778c-.533-.554-1.176-.85-1.857-.85-.676 0-1.325.29-1.88.845l-1.736 1.728c-.143-.077-.286-.148-.423-.22a6.964 6.964 0 01-.545-.29c-1.626-1.032-3.104-2.376-4.522-4.116-.687-.867-1.149-1.597-1.484-2.337.45-.412.868-.84 1.275-1.252.154-.153.308-.312.461-.466 1.155-1.152 1.155-2.645 0-3.797l-1.5-1.498c-.17-.17-.346-.346-.51-.522a26.25 26.25 0 00-1.034-1.02c-.533-.527-1.17-.807-1.841-.807-.67 0-1.319.28-1.868.807l-.011.01-1.869 1.883a4.012 4.012 0 00-1.192 2.551c-.132 1.603.34 3.095.703 4.072.89 2.398 2.22 4.62 4.204 7.002 2.407 2.87 5.303 5.136 8.611 6.733 1.264.598 2.951 1.306 4.837 1.427.115.005.236.011.346.011 1.27 0 2.335-.456 3.17-1.36.006-.012.017-.017.023-.028.285-.346.615-.659.961-.994.237-.225.478-.46.715-.707.544-.566.83-1.224.83-1.9 0-.68-.292-1.333-.847-1.881l-3.017-3.024zm-6.507-9.921a6.972 6.972 0 013.792 1.964 6.992 6.992 0 011.968 3.787c.06.362.373.614.73.614.045 0 .083-.005.127-.01a.742.742 0 00.61-.857 8.46 8.46 0 00-2.38-4.582 8.48 8.48 0 00-4.588-2.376.746.746 0 00-.857.604c-.072.4.192.79.598.856zm11.937 5.284a13.917 13.917 0 00-3.919-7.545 13.951 13.951 0 00-7.556-3.913.739.739 0 10-.242 1.46 12.493 12.493 0 016.754 3.495 12.425 12.425 0 013.5 6.745.738.738 0 00.732.614c.044 0 .082-.005.126-.01a.727.727 0 00.605-.846z' stroke='%23fff' stroke-width='.5'/%3E%3C/svg%3E");
+  }
+  &__text {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+}
+
+.booking-manager__manager-contacts {
+  margin-top: 20px;
+}
+
+.manager-contacts {
+  &__info-about-manager {
+    height: 70px;
+  }
+  &__mail {
+    margin-top: 15px;
+  }
+  &__info-about-manager,
+  &__mobile-numbers {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
+
+.info-about-manager__name {
+  line-height: 22px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #323232;
+}
+.mobile-numbers__number {
+  line-height: 20px;
+}
+
+.recommendations-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  &__recommendations {
+    height: 47px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid #e9e9e9;
+  }
+  &__border-bottom {
+    border-bottom: 1px solid #e9e9e9;
+  }
+}
+
+.recommendations {
+  &__icon {
+    width: 41px;
+    height: 100%;
+    background: no-repeat 0 0 url("data:image/svg+xml,%3Csvg width='26' height='26' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M24.35 22.772l1.403-1.062c.467-.353.227-1.192-.35-1.192H23.67c-.258 0-.487-.104-.567-.36l-.535-1.73a.587.587 0 00-1.134 0l-.535 1.73c-.08.256-.309.36-.567.36h-1.734c-.577 0-.817.839-.35 1.192l1.403 1.062a.636.636 0 01.216.694l-.564 1.719a.663.663 0 00-.03.222c.017.462.57.778.975.472l1.403-1.063a.579.579 0 01.7 0l1.403 1.063c.405.306.956-.01.976-.472a.652.652 0 00-.03-.222l-.565-1.719a.636.636 0 01.216-.694zm-18 0l1.403-1.062c.467-.353.227-1.192-.35-1.192H5.67c-.258 0-.487-.104-.567-.36l-.536-1.73a.587.587 0 00-1.132 0l-.536 1.73c-.08.256-.309.36-.567.36H.597c-.577 0-.817.839-.35 1.192l1.403 1.062a.635.635 0 01.216.694l-.564 1.719a.662.662 0 00-.03.222c.017.462.57.778.975.472l1.403-1.063a.579.579 0 01.7 0l1.403 1.063c.405.306.956-.01.976-.472a.651.651 0 00-.03-.222l-.565-1.719a.635.635 0 01.216-.694zm9-4l1.403-1.062c.467-.353.227-1.192-.35-1.192H14.67c-.258 0-.487-.104-.567-.36l-.536-1.73a.587.587 0 00-1.133 0l-.535 1.73c-.08.256-.309.36-.567.36H9.597c-.577 0-.817.839-.35 1.192l1.403 1.062a.636.636 0 01.216.694l-.564 1.719a.663.663 0 00-.03.222c.017.462.57.778.975.472l1.403-1.063a.579.579 0 01.7 0l1.403 1.063c.405.306.956-.01.976-.472a.652.652 0 00-.03-.222l-.565-1.719a.636.636 0 01.216-.694z' fill='%23FFB947'/%3E%3Cpath d='M17.75 5.5a4.75 4.75 0 11-9.5 0 4.75 4.75 0 019.5 0z' stroke='%23FFB947' stroke-width='1.5'/%3E%3Cpath d='M21 14.199a10.477 10.477 0 00-8-3.699 10.477 10.477 0 00-8 3.699' stroke='%23FFB947' stroke-width='1.5' stroke-linecap='round'/%3E%3C/svg%3E");
+  }
+  &__text {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 28px;
+    color: #323232;
+  }
+}
+
+.info-about-advisor {
+  &__name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #323232;
+  }
+  &__position {
+    font-size: 12px;
+  }
+}
+
+.advisor__description-advisor {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 25px;
+}
+.description__photo {
+  width: 63px;
+  background: no-repeat url("../img/photo-girl.jpg");
+}
+.read-more__arrow-down {
+  color: #ffffff;
+}
+
+.general-row, .registration-rent__general-row,
+.first-block__bottom-block {
+  display: flex;
+  justify-content: space-between;
+}
+.select-date__date, .duration__text,
+.age-passengers__text {
+  display: flex;
+  align-items: center;
+}
+.select-date__icon-choose, .duration__icon-choose,
+.age-passengers__icon-choose {
+  font-size: 20px;
+  transform: rotate(90deg);
+  display: flex;
+  align-items: center;
+  margin-right: 12px;
+}
+.date-of-departure__select-date, .third-row__duration,
+.fifth-row__age-passengers {
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff;
+}
+
+
+@media (min-width: 1270px) {
+    .content-wrapper {
+        height: 5114px;
+    }
+
+    .page-content {
+        height: 100%;
+        position: relative;
+
+        &__main-column {
+            width: 68.8%;
+            height: 4813px;
+        }
+        &__tour-ordering-rules {
+            height: 300px;
+            align-items: center;
+            border-top: 1px solid #e9e9e9;
+        }
+    }
+
+    .main-column {
+      &__first-block {
+        height: 626px;
+      }
+      &__second-block {
+        height: 914px;
+      }
+      &__third-block {
+        height: 2551px;
+      }
+      &__fourth-block {
+        height: 722px;
+      }
+      &__fifth-block {
+        width: 27.6%;
+        height: 1024px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin-top: 69px;
+        margin-right: 15px;
+      }
+    }
+
+    .first-block {
+      &__top-block {
+        padding: 22px 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: 12px;
+      }
+      &__bottom-block {
+        height: 557px;
+        background: no-repeat #e9e9e9 url("../img/white-bus.jpg");
+      }
+    }
+
+    .top-block {
+      &__main-page {
+        color: #323232;
+        margin-right: 16px;
+      }
+      &__dash {
+        margin-right: 16px;
+      }
+    }
+
+    .bottom-block {
+      &__left-part {
+        height: 100%;
+      }
+      &__right-part {
+        height: 83px;
+        bottom: 0;
+        margin: 0 20px 20px 0;
+      }
+    }
+
+    .left-part {
+      &__video-wrapper {
+        width: 107px;
+        height: 30px;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+      }
+      &__name-transport {
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 100%;
+        letter-spacing: 0.01em;
+      }
+    }
+
+    .video-wrapper {
+      &__icon {
+        width: 27px;
+        height: 100%;
+        background: no-repeat left url("data:image/svg+xml,%3Csvg width='21' height='14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M19.803 11.93a.402.402 0 01-.399.007l-4.359-2.386v1.432A2.017 2.017 0 0113.032 13H3.012A2.017 2.017 0 011 10.983V3.017A2.017 2.017 0 013.013 1h10.02a2.017 2.017 0 012.012 2.017v1.406l4.36-2.386a.402.402 0 01.595.354v9.192a.403.403 0 01-.197.347zM14.24 3.017a1.21 1.21 0 00-1.208-1.21H3.012a1.21 1.21 0 00-1.207 1.21v7.966c0 .668.541 1.21 1.208 1.21h10.02a1.21 1.21 0 001.207-1.21V3.017zm4.955.054l-4.15 2.271v3.29l4.15 2.27v-7.83z' fill='%23fff' stroke='%23fff' stroke-width='.5'/%3E%3C/svg%3E");
+      }
+      &__video {
+        width: 41px;
+        display: flex;
+        align-items: center;
+        font-size : 12px;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        font-weight: bold;
+      }
+    }
+
+    .right-part {
+      &__indicators {
+        height: 30px;
+      }
+      &__switches {
+        width: 38%;
+        height: 30px;
+      }
+    }
+
+    .switches__switch {
+      color: #11100e;
+    }
+
+    .second-block {
+      &__bus-rental {
+        height: 482px;
+      }
+      &__service-buses {
+        height: 432px;
+      }
+    }
+
+    .bus-rental {
+      &__title {
+        margin-top: 48px;
+      }
+      &__transport-options {
+        height: 210px;
+      }
+      &__manager-contacts {
+        height: 176px;
+      }
+    }
+
+    .service-rental__title {
+        display: flex;
+        align-items: flex-end;
+        font-size: 30px;
+    }
+
+    .transport-options {
+      &__text {
+        font-size: 16px;
+        margin-top: 20px;
+      }
+      &__options {
+        min-height: 126px;
+        padding-left: 20px;
+      }
+    }
+
+    .options__transport {
+        color: #626262;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .manager-contacts {
+      &__text {
+        padding: 15px 0;
+        font-size: 18px;
+        font-weight: bold;
+        color: #323232;
+        display: flex;
+        align-items: center;
+      }
+      &__mail-address, &__viber,
+      &__mobile-number {
+        height: 36px;
+        font-size: 16px;
+      }
+    }
+
+    .service-buses {
+      &__title {
+        margin-top: 15px;
+      }
+      &__text {
+        min-height: 164px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 20px;
+      }
+      &__manager-contacts {
+        height: 177px;
+        margin-top: 5px;
+      }
+    }
+
+    .text {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .third-block {
+      &__photo-big-buses {
+        height: 1135px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      &__choice-buses {
+        height: 1215px;
+      }
+      &__manager-contacts {
+        height: 173px;
+      }
+    }
+
+    .photo-big-buses {
+      &__first {
+        margin-bottom: 30px;
+      }
+      &__second {
+        margin-bottom: 28px;
+      }
+    }
+    .photo-big-buses {
+        border-radius: 5px;
+        background: #c4c4c4;
+    }
+
+    .choice-buses {
+      &__title {
+        font-size: 29px;
+        line-height: 60px;
+      }
+      &__photos-buses {
+        height: 1155px;
+      }
+    }
+
+    .general-row {
+        height: 385px;
+    }
+    .option__photo {
+        height: 279px;
+    }
+
+    .description {
+      &__name {
+        padding-top: 13px;
+        align-items: flex-end;
+        font-size: 18px;
+        font-weight: bold;
+        color: #323232;
+      }
+      &__name,
+      &__info {
+        display: flex;
+        margin-left: 20px;
+        line-height: 28px;
+      }
+    }
+
+    .fourth-block__transport-rental {
+        height: 551px;
+        background: #fafafa;
+        padding: 40px;
+        border-radius: 10px;
+    }
+
+    .transport-rental {
+      &__title {
+        height: 54px;
+        font-size: 30px;
+        font-weight: bold;
+      }
+      &__registration-rent {
+        height: 437px;
+      }
+      &__bottom-block {
+        height: 60px;
+        align-items: flex-end;
+      }
+    }
+
+    .registration-rent {
+      &__general-row {
+        margin-bottom: 20px;
+      }
+      &__sixth-row {
+        height: 94px;
+      }
+    }
+
+    .first-row__name, .first-row__surname, .second-row__mail-address,
+    .second-row__telephone, .third-row__duration, .fourth-row__route,
+    .fourth-row__number-passengers, .fifth-row__viber, .fifth-row__age-passengers {
+      width: 46.5%;
+    }
+
+    .third-row__date-of-departure {
+      width: 48.5%;
+      height: 48px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .date-of-departure__select-date {
+        width: 343px;
+    }
+
+    .bottom-block {
+      &__button-write {
+        font-size: 12px;
+      }
+      &__description {
+        margin: 0 0 8px 20px;
+      }
+    }
+
+    .fifth-block {
+      width: 100%;
+      height: 547px;
+
+      &__button-order {
+        padding: 16px 0;
+        font-size: 14px;
+        margin-bottom: 20px;
+      }
+      &__download-share-block {
+        height: 105px;
+        margin-bottom: 20px;
+      }
+      &__recommendations-block,
+      &__download-share-block {
+        border: 1px solid #e9e9e9;
+        border-radius: 5px;
+        padding: 20px;
+      }
+      &__contacts-block {
+        height: 291px;
+        margin-bottom: 20px;
+      }
+      &__recommendations-block {
+        height: 437px;
+      }
+    }
+
+    .download-share-block {
+      &__download {
+        height: 46px;
+        border-bottom: 1px solid #e9e9e9;
+        display: flex;
+        justify-content: flex-start;
+      }
+      &__share {
+        height: 60px;
+        display: flex;
+        justify-content: flex-start;
+      }
+    }
+
+    .download {
+      &__icon {
+        width: 34px;
+        height: 100%;
+        background: no-repeat 0 0 url("data:image/svg+xml,%3Csvg width='26' height='28' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.6 11.682a.73.73 0 000 1.037l3.885 3.886a.713.713 0 001.03 0L17.4 12.72a.73.73 0 000-1.037.73.73 0 00-1.037 0l-2.63 2.633V1.733A.73.73 0 0013 1a.73.73 0 00-.732.733v12.582l-2.631-2.633a.73.73 0 00-1.037 0z' fill='%23626262'/%3E%3Cpath d='M24.973 17.686l-2.55-9.228a.742.742 0 00-.401-.472l-.07-.033a.746.746 0 00-.305-.065h-4.595a.73.73 0 00-.732.733.73.73 0 00.732.733h4.102l2.153 7.805h-5.696a.73.73 0 00-.732.733v.662c0 .972-.787 1.759-1.758 1.759h-4.47a1.758 1.758 0 01-1.758-1.759v-.662a.73.73 0 00-.732-.733H2.687l2.165-7.822h4.101a.73.73 0 00.732-.732.73.73 0 00-.732-.733h-4.6a.746.746 0 00-.304.065l-.07.033a.728.728 0 00-.402.472l-2.55 9.227a.808.808 0 00-.027.196v3.848A5.292 5.292 0 006.284 27h13.432A5.292 5.292 0 0025 21.713v-3.832a.568.568 0 00-.027-.195zm-1.438 4.027a3.826 3.826 0 01-3.819 3.821H6.284a3.826 3.826 0 01-3.82-3.82v-3.09H7.44a3.226 3.226 0 003.223 3.149h4.47a3.226 3.226 0 003.222-3.148h5.192v3.088h-.01z' fill='%23626262'/%3E%3Cpath d='M8.6 11.682a.73.73 0 000 1.037l3.885 3.886a.713.713 0 001.03 0L17.4 12.72a.73.73 0 000-1.037.73.73 0 00-1.037 0l-2.63 2.633V1.733A.73.73 0 0013 1a.73.73 0 00-.732.733v12.582l-2.631-2.633a.73.73 0 00-1.037 0z' stroke='%23626262' stroke-width='.5'/%3E%3Cpath d='M24.973 17.686l-2.55-9.228a.742.742 0 00-.401-.472l-.07-.033a.746.746 0 00-.305-.065h-4.595a.73.73 0 00-.732.733.73.73 0 00.732.733h4.102l2.153 7.805h-5.696a.73.73 0 00-.732.733v.662c0 .972-.787 1.759-1.758 1.759h-4.47a1.758 1.758 0 01-1.758-1.759v-.662a.73.73 0 00-.732-.733H2.687l2.165-7.822h4.101a.73.73 0 00.732-.732.73.73 0 00-.732-.733h-4.6a.746.746 0 00-.304.065l-.07.033a.728.728 0 00-.402.472l-2.55 9.227a.808.808 0 00-.027.196v3.848A5.292 5.292 0 006.284 27h13.432A5.292 5.292 0 0025 21.713v-3.832a.568.568 0 00-.027-.195zm-1.438 4.027a3.826 3.826 0 01-3.819 3.821H6.284a3.826 3.826 0 01-3.82-3.82v-3.09H7.44a3.226 3.226 0 003.223 3.149h4.47a3.226 3.226 0 003.222-3.148h5.192v3.088h-.01z' stroke='%23626262' stroke-width='.5'/%3E%3C/svg%3E");
+      }
+      &__text {
+        font-size: 15px;
+        line-height: 28px;
+        color: #323232;
+        font-weight: bold;
+      }
+    }
+
+    .share__icon {
+        margin-top: 20px;
+    }
+
+    .contacts-block {
+      &__title-block {
+        width: 100%;
+      }
+      &__booking-manager {
+        padding: 0 5px 0 18px;
+      }
+    }
+
+    .booking-manager {
+      &__manager-contacts {
+        width: 58.2%;
+      }
+      &__photo {
+        width: 41.8%;
+        display: flex;
+        align-items: flex-end;
+      }
+    }
+
+    .info-about-manager__position {
+        min-height: 47px;
+        font-size: 12px;
+        line-height: 17px;
+    }
+    .manager-contacts__mail {
+        font-size: 16px;
+    }
+
+    .recommendations-block {
+      height: 100%;
+
+      &__advisor {
+        height: 173px;
+      }
+      &__show-more {
+        padding: 6px 0;
+        color: #7ebd3e;
+        border: 2px solid #7ebd3e;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 11px;
+        font-weight: bold;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+      }
+    }
+
+    .advisor {
+      &__description-advisor {
+        height: 48px;
+      }
+      &__recommendation {
+        height: 66px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+      }
+      &__read-more {
+        height: 36px;
+        display: flex;
+        justify-content: flex-start;
+      }
+    }
+
+    .description__photo {
+        background-position: left;
+    }
+
+    .read-more {
+      &__more-about {
+        font-size: 12px;
+        letter-spacing: 0.07em;
+        text-transform: uppercase;
+        color: #323232;
+        line-height: 16px;
+        font-weight: bold;
+      }
+      &__angle-down {
+        margin-left: 16px;
+        margin-bottom: 22px;
+        font-size: 22px;
+        transform: rotate(90deg);
+        color: #323232;
+      }
+    }
+
+    .tour-ordering-rules {
+      &__title {
+        width: 68.7%;
+        padding-top: 53px;
+        margin-bottom: 18px;
+        font-weight: bold;
+        letter-spacing: 0.01em;
+        font-size: 23px;
+        color: #323232;
+        display: flex;
+        align-items: flex-end;
+      }
+      &__info {
+        width: 68.7%;
+        min-height: 88px;
+        font-size: 16px;
+      }
+      &__read-more {
+        width: 68.7%;
+        display: flex;
+        justify-content: flex-start;
+      }
+    }
+    .travel-read-more {
+      padding-bottom: 125px;
+    }
+
+    .read-more {
+      &__text {
+        width: 14.2%;
+        color: #323232;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 0.1em;
+      }
+      &__arrow-down {
+        width: 85.8%;
+        height: 100%;
+        background: no-repeat 0 50% url("data:image/svg+xml,%3Csvg width='10' height='6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8.785 1l-4 4-4-4' stroke='%23323232' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+      }
+    }
+
+    .recommendations-block__hidden-block, .photo__girl-second, .photo__girl-third,
+    .choice-buses__hidden-indicators {
+        display: none;
+    }
+}
+@media (min-width: 768px) and (max-width: 1269px) {
+    .content-wrapper {
+        height: 3714px;
+    }
+    .page-content__main-column {
+        width: 100%;
+        position: relative;
+    }
+
+    .main-column {
+      &__first-block {
+        height: 490px;
+      }
+      &__second-block {
+        height: 808px;
+      }
+      &__third-block {
+        height: 1137px;
+      }
+      &__fourth-block {
+        height: 571px;
+      }
+    }
+
+    .first-block__bottom-block {
+        height: 480px;
+        background: no-repeat #e9e9e9 url("../img/white-bus.jpg");
+        background-size: 100% 480px;
+        max-width: 950px;
+    }
+
+    .bottom-block__right-part {
+        height: 440px;
+        flex-direction: column-reverse;
+        margin: 20px 20px 20px 0;
+    }
+
+    .second-block {
+      &__bus-rental {
+        height: 428px;
+      }
+      &__service-buses {
+        height: 380px;
+      }
+    }
+
+    .bus-rental {
+      &__title {
+        padding: 25px 0 62px 0;
+      }
+      &__transport-options {
+        min-height: 170px;
+      }
+      &__manager-contacts {
+        height: 143px;
+      }
+    }
+
+    .transport-options {
+      &__text {
+        min-height: 38px;
+      }
+      &__options {
+        min-height: 97px;
+      }
+    }
+
+    .options__transport {
+        font-size: 14px;
+    }
+
+    .service-buses {
+      &__title {
+        padding-bottom: 12px;
+      }
+      &__text {
+        min-height: 160px;
+      }
+      &__manager-contacts {
+        height: 154px;
+        margin-top: 11px;
+      }
+    }
+
+    .third-block {
+      &__photo-big-buses {
+        height: 463px;
+        max-width: 920px;
+      }
+      &__choice-buses {
+        height: 521px;
+        max-width: 920px;
+        margin: 0 auto;
+      }
+      &__manager-contacts {
+        height: 138px;
+      }
+    }
+
+    .photo-big-buses__first {
+        height: 463px;
+    }
+
+    .choice-buses {
+      &__title {
+        margin: 30px 0 20px 0;
+        font-size: 18px;
+        line-height: 110%;
+      }
+      &__photos-buses {
+        height: 382px;
+      }
+      &__hidden-indicators {
+        height: 69px;
+      }
+    }
+
+    .general-row {
+        width: 100%;
+    }
+
+    .first-row {
+      &__option {
+        width: 100%;
+      }
+      &__option-first {
+        margin-right: 10px;
+      }
+      &__option-second {
+        margin-left: 10px;
+      }
+    }
+
+    .option__photo, .photo-size {
+        width: 100%;
+        height: 299px;
+    }
+
+    .hidden-switches {
+      &__angle-left {
+        background: no-repeat center url("data:image/svg+xml,%3Csvg width='7' height='12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6 1L1 6l5 5' stroke='%23626262' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+      }
+      &__blue-indicator {
+        background: no-repeat center url("data:image/svg+xml,%3Csvg width='8' height='8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='4' cy='4' r='4' fill='%232AB0CD'/%3E%3C/svg%3E ");
+      }
+      &__grey-indicator {
+        background: no-repeat center url("data:image/svg+xml,%3Csvg width='6' height='7' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='3' cy='3.004' r='3' fill='%23D3D3D3'/%3E%3C/svg%3E");
+      }
+      &__angle-right {
+        background: no-repeat center url("data:image/svg+xml,%3Csvg width='7' height='12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M.785 1l5 5-5 5' stroke='%23626262' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+      }
+      &__angle-left, &__angle-right,
+      &__blue-indicator, &__grey-indicator {
+        width: 20%;
+      }
+    }
+
+    .fourth-block__transport-rental {
+        height: 531px;
+        background: #fafafa;
+        padding: 20px;
+    }
+
+    .transport-rental {
+      &__title {
+        padding-bottom: 22px;
+      }
+      &__registration-rent {
+        height: 424px;
+      }
+      &__bottom-block {
+        height: 61px;
+        align-items: flex-end;
+      }
+    }
+
+    .registration-rent {
+      &__general-row {
+        margin-bottom: 16px;
+      }
+      &__sixth-row {
+        height: 81px;
+      }
+    }
+
+    .first-row__name, .first-row__surname, .second-row__mail-address,
+    .second-row__telephone, .third-row__duration, .fourth-row__route,
+    .fourth-row__number-passengers, .fifth-row__viber, .fifth-row__age-passengers {
+      width: 46.5%;
+    }
+
+    .third-row__date-of-departure {
+        width: 48.5%;
+    }
+    .date-of-departure__select-date {
+        width: 90.5%;
+    }
+
+    .bottom-block {
+      &__description {
+        margin: 0 0 10px 20px;
+      }
+      &__button-write {
+        margin-bottom: 10px;
+      }
+    }
+
+    .fifth-block {
+      &__button-order {
+        width: 292px;
+        position: absolute;
+        right: 0;
+        top: 508px;
+      }
+      &__download-share-block {
+        left: 0;
+        top: 550px;
+      }
+      &__recommendations-block {
+        height: 254px;
+        border: 1px solid #e9e9e9;
+        border-radius: 5px;
+        padding: 20px;
+        margin-bottom: 60px;
+      }
+    }
+
+    .booking-manager {
+      &__manager-contacts {
+        width: 40%;
+      }
+      &__photo {
+        width: 60%;
+      }
+    }
+
+    .photo {
+      &__girl-first,
+      &__girl-third {
+        display: none;
+      }
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1229px) {
+    .page-content {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .content-wrapper {
+        height: 3862px;
+    }
+    .page-content__main-column {
+        width: 100%;
+        position: relative;
+    }
+
+    .main-column {
+      &__first-block {
+        height: 250px;
+      }
+      &__second-block {
+        height: 1130px;
+        padding: 0 15px;
+      }
+      &__third-block {
+        height: 924px;
+        padding: 0 15px;
+      }
+      &__fourth-block {
+        height: 852px;
+      }
+    }
+
+    .left-part {
+      &__video-wrapper {
+        margin: 10px 0 0 10px;
+      }
+      &__name-transport {
+        margin: 0 0 10px 15px;
+      }
+    }
+
+    .first-block__bottom-block {
+        height: 240px;
+        background: no-repeat #e9e9e9 url("../img/white-bus.jpg");
+        background-size: 100% 240px;
+        max-width: 450px;
+
+    }
+    .bottom-block__right-part {
+        height: 216px;
+        flex-direction: column-reverse;
+        margin: 12px 12px 12px 0;
+    }
+
+    .second-block {
+      &__bus-rental {
+        height: 550px;
+      }
+      &__service-buses {
+        height: 580px;
+      }
+    }
+
+    .bus-rental {
+      &__title {
+        padding: 15px 0 114px 0;
+      }
+      &__transport-options {
+        height: 238px;
+      }
+      &__manager-contacts {
+        height: 170px;
+      }
+    }
+
+    .transport-options {
+      &__text {
+        min-height: 60px;
+      }
+      &__options {
+        min-height: 116px;
+      }
+    }
+
+    .options__transport {
+        font-size: 13px;
+    }
+
+    .service-buses {
+      &__title {
+        padding: 14px 0 14px 0;
+      }
+      &__text {
+        min-height: 270px;
+      }
+      &__manager-contacts {
+        height: 170px;
+        margin-top: 20px;
+      }
+    }
+
+    .third-block {
+      &__photo-big-buses {
+        height: 240px;
+        max-width: 500px;
+      }
+      &__choice-buses {
+        height: 525px;
+        max-width: 420px;
+        margin: 0 auto;
+      }
+      &__manager-contacts {
+        height: 142px;
+      }
+    }
+
+    .photo-big-buses__first {
+        height: 240px;
+    }
+
+    .choice-buses {
+      &__title {
+        margin: 25px 0 20px 0;
+        font-size: 18px;
+        line-height: 150%;
+      }
+      &__photos-buses {
+        height: 362px;
+      }
+      &__hidden-indicators {
+        height: 74px;
+      }
+    }
+
+    .general-row,
+    .first-row__option {
+        width: 100%;
+    }
+    .option__photo,
+    .photo-size {
+        width: 100%;
+        height: 279px;
+    }
+
+    .fourth-block__transport-rental {
+        height: 822px;
+        padding: 15px;
+        background: #fafafa;
+        border-bottom: 1px solid #e9e9e9;
+    }
+
+    .transport-rental {
+      &__title {
+        padding: 18px 0;
+      }
+      &__registration-rent {
+        height: 656px;
+      }
+      &__bottom-block {
+        height: 117px;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+      }
+    }
+
+    .registration-rent {
+      &__general-row {
+        height: 104px;
+        flex-direction: column;
+        margin-bottom: 8px;
+      }
+      &__sixth-row {
+        height: 81px;
+      }
+    }
+
+    .date-of-departure__select-date {
+        width: 100%;
+    }
+    .bottom-block__button-write {
+      margin-bottom: 30px;
+    }
+
+    .fifth-block {
+      padding: 0 15px;
+
+      &__button-order {
+        width: 330px;
+        position: absolute;
+        left: calc(50% - 165px);
+        top: 353px;
+      }
+      &__download-share-block {
+        left: 15px;
+        top: 298px;
+      }
+      &__recommendations-block {
+        height: 254px;
+        padding: 0 15px;
+      }
+    }
+
+    .booking-manager {
+      &__manager-contacts {
+        width: 70%;
+      }
+      &__photo {
+        width: 30%;
+      }
+    }
+
+    .recommendations-block {
+        border: 1px solid #e9e9e9;
+        border-radius: 5px;
+        margin-bottom: 60px;
+        padding: 20px;
+    }
+
+    .hidden-switches {
+      &__angle-left {
+        background: no-repeat center url("data:image/svg+xml,%3Csvg width='7' height='12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6 1L1 6l5 5' stroke='%23626262' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+      }
+      &__blue-indicator {
+        background: no-repeat center url("data:image/svg+xml,%3Csvg width='8' height='8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='4' cy='4' r='4' fill='%232AB0CD'/%3E%3C/svg%3E ");
+      }
+      &__grey-indicator {
+        background: no-repeat center url("data:image/svg+xml,%3Csvg width='6' height='7' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='3' cy='3.004' r='3' fill='%23D3D3D3'/%3E%3C/svg%3E");
+      }
+      &__angle-right {
+        background: no-repeat center url("data:image/svg+xml,%3Csvg width='7' height='12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M.785 1l5 5-5 5' stroke='%23626262' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+      }
+      &__angle-left, &__angle-right,
+      &__blue-indicator, &__grey-indicator {
+        width: 20%;
+      }
+    }
+
+    .photo__girl-first, .photo__girl-second,
+    .first-row__option-second {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+  .page-content__tour-ordering-rules {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .left-part {
+    &__video-wrapper {
+      margin: 20px 0 0 20px;
+    }
+    &__name-transport {
+      margin: 0 0 20px 20px;
+    }
+  }
+}
+
+@media (max-width: 1269px) {
+  .left-part {
+    &__video-wrapper {
+      width: 51px;
+      height: 26px;
+      background: rgba(0, 0, 0, 0.6);
+      border-radius: 15px;
+      display: flex;
+      justify-content: center;
+    }
+    &__name-transport {
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 100%;
+      letter-spacing: 0.01em;
+    }
+  }
+
+  .first-block__bottom-block {
+    margin: 10px auto 0 auto;
+  }
+  .video-wrapper__icon {
+    width: 27px;
+    height: 100%;
+    background: no-repeat center url("data:image/svg+xml,%3Csvg width='21' height='14' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M19.803 11.93a.402.402 0 01-.399.007l-4.359-2.386v1.432A2.017 2.017 0 0113.032 13H3.012A2.017 2.017 0 011 10.983V3.017A2.017 2.017 0 013.013 1h10.02a2.017 2.017 0 012.012 2.017v1.406l4.36-2.386a.402.402 0 01.595.354v9.192a.403.403 0 01-.197.347zM14.24 3.017a1.21 1.21 0 00-1.208-1.21H3.012a1.21 1.21 0 00-1.207 1.21v7.966c0 .668.541 1.21 1.208 1.21h10.02a1.21 1.21 0 001.207-1.21V3.017zm4.955.054l-4.15 2.271v3.29l4.15 2.27v-7.83z' fill='%23fff' stroke='%23fff' stroke-width='.5'/%3E%3C/svg%3E");
+  }
+  .right-part__switches {
+    width: 64px;
+    height: 26px;
+  }
+  .switches__switch {
+    color: #252d47;
+  }
+  .indicators__second {
+    order: -1;
+  }
+  .description__name {
+    padding-top: 19px;
+    align-items: flex-end;
+    font-size: 16px;
+    font-weight: bold;
+    color: #323232;
+    letter-spacing: 0.03em;
+  }
+
+  .bus-rental {
+    &__title {
+      font-size: 22px;
+      display: flex;
+      align-items: flex-start;
+      line-height: 28px;
+    }
+    &__transport-options {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+  }
+
+  .transport-options {
+    &__options {
+      padding-left: 20px;
+      margin: 9px 0;
+    }
+    &__text {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+
+  .options__transport {
+    line-height: 20px;
+    color: #626262;
+  }
+
+  .manager-contacts {
+    &__text {
+      font-weight: bold;
+      color: #323232;
+      letter-spacing: 0.01em;
+      display: flex;
+      align-items: center;
+      margin-bottom: 8px;
+      font-size: 14px;
+      line-height: 20px;
+    }
+    &__mail-address, &__viber,
+    &__mobile-number {
+      height: 32px;
+      font-size: 14px;
+    }
+  }
+
+  .service-buses {
+    &__title {
+      font-size: 18px;
+    }
+    &__text {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+  }
+
+  .text {
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  .choice-buses__hidden-indicators {
+    width: 140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .third-block__photo-big-buses {
+    display: flex;
+    align-items: flex-end;
+    margin: 0 auto;
+  }
+  .photo-big-buses__first {
+    width: 100%;
+    background: #c4c4c4;
+    border-radius: 5px;
+  }
+
+  .description {
+    &__info {
+      padding-bottom: 16px;
+    }
+    &__name,
+    &__info {
+      display: flex;
+      margin-left: 16px;
+      line-height: 24px;
+    }
+  }
+
+  .transport-rental__title {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .third-row__date-of-departure {
+    height: 48px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .bottom-block__description {
+    padding: 8px 0;
+  }
+
+  .main-column__fifth-block {
+    width: 100%;
+    height: 708px;
+  }
+
+  .fifth-block {
+    height: 352px;
+
+    &__button-order {
+      padding: 12px 0;
+      font-size: 14px;
+    }
+    &__download-share-block {
+      height: 40px;
+      position: absolute;
+    }
+    &__contacts-block {
+      margin-top: 30px;
+    }
+  }
+
+  .download-share-block__share {
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .contacts-block__booking-manager {
+    padding: 0 0 0 18px;
+  }
+  .info-about-manager__position {
+    margin-bottom: 15px;
+    font-size: 12px;
+    line-height: 17px;
+  }
+  .booking-manager__photo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  .recommendations-block {
+    &__advisor {
+      height: 144px;
+    }
+    &__hidden-switches {
+      width: 230px;
+      height: 56px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  .advisor {
+    &__description-advisor {
+      height: 62px;
+    }
+    &__recommendation {
+      height: 58px;
+      line-height: 22px;
+      display: flex;
+      align-items: flex-start;
+    }
+  }
+
+  .description {
+    &__photo {
+      background-position: 0 0;
+    }
+    &__info-about-advisor {
+      height: 48px;
+    }
+  }
+
+  .info-about-advisor__position {
+    letter-spacing: 0.03em;
+  }
+
+  .hidden-switches {
+    &__margin-top {
+      margin-top: 10px;
+      color: #ffffff;
+    }
+    &__angle-left, &__angle-right,
+    &__blue-indicator, &__grey-indicator {
+      display: flex;
+      align-items: flex-end;
+    }
+  }
+
+  .advisor__read-more, .recommendations-block__show-more,
+  .download-share-block__download, .first-block__top-block,
+  .video-wrapper__video, .recommendations-block__advisor-second,
+  .photo-big-buses__second, .photo-buses__second-row, .photo-buses__third-row,
+  .page-content__tour-ordering-rules, .mobile-tablet-picture {
+    display: none;
+  }
+}
+
+@media (max-width: 359px) {
+    .options__transport {
+        font-size: 12px;
+    }
+    .transport-options__text, .manager-contacts__text, .description__info, .text,
+    .manager-contacts__viber, .manager-contacts__mobile-number, .advisor__recommendation {
+        font-size: 12px;
+    }
+    .fifth-block__button-order {
+        width: 290px;
+        left: calc(50% - 145px);
+    }
+    .bus-rental__title, .transport-rental__title {
+        font-size: 18px;
+    }
+    li, .description__name  {
+        font-size: 14px;
+    }
+    .choice-buses__photos-buses {
+        height: 342px;
+    }
+    .option__photo, .photo-size {
+        height: 259px;
+    }
+}
+
+@media (max-width: 449px) {
+    .full-width-banner {
+        width: 100vw;
+        position: relative;
+        margin-left: -50vw;
+        left: 50%;
+    }
+}
