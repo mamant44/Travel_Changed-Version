@@ -1,0 +1,6 @@
+{
+  "short_name": "Travel",
+  "name": "Travel project",
+  "start_url": ".",
+  "display": "standalone"
+}
